@@ -10,19 +10,19 @@ const Header = () => {
     },
     {
       title: "About",
-      link: "/about",
+      link: "/#about",
     },
     {
-      title: "Project",
-      link: "/about",
+      title: "Projects",
+      link: "/#projects",
     },
     {
       title: "Skills",
-      link: "/about",
+      link: "/#skills",
     },
     {
       title: "Contact",
-      link: "/about",
+      link: "/#contact",
     },
   ];
   return (

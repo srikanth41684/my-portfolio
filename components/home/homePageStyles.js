@@ -5,7 +5,7 @@ export const homePageStyles = css`
     max-width: 1366px;
     margin: 0 auto;
     padding: 30px;
-    height: calc(100vh - 78px);
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;

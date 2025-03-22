@@ -2,6 +2,8 @@ import css from "styled-jsx/css";
 
 export const headerStyles = css`
   .header {
+    position: fixed;
+    width: 100%;
     background-color: var(--bg-color);
     backdrop-filter: blur(10px);
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
