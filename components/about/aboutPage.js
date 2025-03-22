@@ -1,15 +1,12 @@
 import React from "react";
+import { aboutPageStyles } from "@/components/about/aboutPageStyles";
 
 const AboutPage = () => {
   return (
-    <div
-      style={{
-        height: "500px",
-        backgroundColor: "red",
-      }}
-    >
+    <>
+      <style jsx>{aboutPageStyles}</style>
       <div>AboutPage</div>
-    </div>
+    </>
   );
 };
 
