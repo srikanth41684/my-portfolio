@@ -4,7 +4,7 @@ export const homePageStyles = css`
   .homeMainContainer {
     max-width: 1366px;
     margin: 0 auto;
-    padding: 30px;
+    padding: 78px 30px 30px;
     height: 100vh;
     display: flex;
     align-items: center;
