@@ -1,7 +1,7 @@
 import css from "styled-jsx/css";
 
 export const globalStyles = css`
-  .body {
+  .commonContainer {
     background-color: var(--bg-color);
   }
 `;

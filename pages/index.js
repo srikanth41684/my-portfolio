@@ -1,17 +1,8 @@
+import HomePage from "@/components/home/homePage";
 import React from "react";
 
-const HomePage = () => {
-  return (
-    <div>
-      <h1>Test styled-jsx</h1>
-      <style jsx>{`
-        h1 {
-          color: orange;
-          font-size: 2rem;
-        }
-      `}</style>
-    </div>
-  );
+const InitalPage = () => {
+  return <HomePage />;
 };
 
-export default HomePage;
+export default InitalPage;

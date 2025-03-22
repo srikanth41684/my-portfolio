@@ -6,7 +6,7 @@ const Header = () => {
   const data = [
     {
       title: "Home",
-      link: "/about",
+      link: "/#home",
     },
     {
       title: "About",
