@@ -75,4 +75,27 @@ export const homePageStyles = css`
     color: #fff;
     font-weight: 600;
   }
+
+  @media screen and (max-width: 768px) {
+    .nameTitle {
+      font-size: 22px;
+      line-height: 18px;
+    }
+
+    .jobTitle {
+      font-size: 20px;
+      line-height: 17px;
+    }
+
+    .socialIconsParent {
+      width: 40px;
+      height: 40px;
+    }
+
+    .resumeBtn {
+      padding: 15px 25px;
+      font-size: 14px;
+      line-height: 12px;
+    }
+  }
 `;
