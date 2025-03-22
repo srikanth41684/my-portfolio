@@ -12,6 +12,7 @@
     "next": "15.2.2",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "react-type-animation": "^3.2.0",
     "styled-jsx": "^5.1.6"
   },
   "devDependencies": {
