@@ -2,7 +2,7 @@ import React from "react";
 import { homePageStyles } from "./homePageStyles";
 import { globalStyles } from "@/styles/globalStyles";
 
-const HomePage = () => {
+const homePage = () => {
   return (
     <>
       <style jsx>{globalStyles}</style>
@@ -14,4 +14,4 @@ const HomePage = () => {
   );
 };
 
-export default HomePage;
+export default homePage;

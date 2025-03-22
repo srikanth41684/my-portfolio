@@ -33,8 +33,8 @@ const Header = () => {
           <div className="logo">SRIKANTH</div>
           <nav className={`nav`}>
             <ul className="nav-list">
-              {data.map((tab) => (
-                <li key={tab} className="nav-item">
+              {data.map((tab, index) => (
+                <li key={index} className="nav-item">
                   <Link href={tab.link} legacyBehavior>
                     <a className="nav-link">{tab.title}</a>
                   </Link>
