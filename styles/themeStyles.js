@@ -12,7 +12,7 @@ export const lightTheme = css.global`
 
 export const darkTheme = css.global`
   :root {
-    --bg-color: #121212;
+    --bg-color: #080015;
     --text-color: #ffffff;
     --container-bg: #1e1e1e;
     --button-bg: #bb86fc;
