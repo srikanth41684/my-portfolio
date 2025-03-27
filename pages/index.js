@@ -12,7 +12,9 @@ const InitalPage = () => {
       <div id="about">
         <AboutPage />
       </div>
-      
+      <div id="projects">
+        <ProjectPage />
+      </div>
     </>
   );
 };
