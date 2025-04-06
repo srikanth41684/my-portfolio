@@ -1,6 +1,7 @@
 import AboutPage from "@/components/about/aboutPage";
 import HomePage from "@/components/home/homePage";
 import ProjectPage from "@/components/projects/projectPage";
+import SkillsPage from "@/components/skills/skills";
 import React from "react";
 
 const InitalPage = () => {
@@ -14,6 +15,9 @@ const InitalPage = () => {
       </div>
       <div id="projects">
         <ProjectPage />
+      </div>
+      <div id="skills">
+        <SkillsPage />
       </div>
     </>
   );
